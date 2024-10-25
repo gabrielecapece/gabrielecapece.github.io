@@ -1,35 +1,36 @@
 <html>
      <head>
 		 <title>Gabriele Capece</title>
+		 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 		 <style>
 		 
 			 body{
-			    background-color: #042d4a;
+			    background-color: black;
 			 }
 			 .titolo{
-			    font-size: 35;
-			    color: yellow;
+			    font-size: 40;
+			    color: white;
 			 }
 			 .descrizione{
 				color: white;
-				font-size: 25;<!--testo-->
+				font-size: 25;
 			 }
-			.tabella{
-			height: auto;
-			border: 2px solid black;
-			width: 100%;
-			}
 			 
 			 .foto{
 			 height: auto;
-            width: 50%; 
+            width: 80%; 
             border-radius: 50%; 
 			float: left;
         }
 			 }
 		    
-			.copy{
+			.pcopy{
 			color: white;
+			front-size: 18;
+			}
+			
+			.row{
+			
 			}
 		 
 		 </style>
@@ -39,38 +40,35 @@
 		   
 		   <header>
 		   
-		<center><h1 class="titolo">La mia presentazione</h1></center>
+		    <center><h1 class="titolo" >My site</h1></center>
 		
 	       </header>
 		   
 		    
 			<main>
-			
-				<table class="tabella">
-					<tbody>
-						<tr>
-							<td>
-							<center>
-								<img class="foto"
-								src="IMG_1087.png.jpg"
-									 alt="un mio selfie"
-									 title="un mio selfie" />
-							</center>
-							</td>
-							<td>
-								<p>
-									<p class="descrizione">
-									Salve a tutti mi chiamo Gabriele Capece ho 17 anni Frequento il quarto anno dell'ITIS "Alber Einstein".
-									
-								</p>
-							</td>
-						</tr>
-					</tbody>
-				</table>
+			<div class="row">
+				<div class="col-4">
+				<img class="foto"
+					src="IMG_1087.png.jpg"
+					alt="un mio selfie"
+					title="un mio selfie" />
+				</div>
+				<div class="col-8" >
+					<p class="descrizione">
+					Salve a tutti sono Gabriele Capece frequento il quarto anno all'IIES Alber Einstein a Picerno.
+					Fin da quando ero bambino le passioni che mi regalavano momenti unici erano e sono
+					tutt'ora il calcio e le moto.
+					Il mio obbiettivo era ed è essere competitivo in tutto a partire dalle mie passioni.
+					Successivamente scegliendo informatica come percorso mi sono appassionato molto al mondo della tecnologia.
+					Imparando molto sulla programmazione ed avvicinandomi sempre di più a questo mondo.
+					</p>
+				</div>
+				</div>
 				
 		    </main>
 			<footer>
-		<p class="pcopy">&copy;Gabriele Capece</p>
+		<p class="pcopy " >&copy;Gabriele Capece</p>
 	</footer>
+		 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 		</body>
 		</html>
