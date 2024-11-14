@@ -1,0 +1,34 @@
+            body{
+			    background-color: black;
+			 }
+			 .titolo{
+			    font-size: 40;
+			    color: white;
+			 }
+			 .descrizione{
+				color: white;
+				font-size: 25;
+			 }
+			 
+			 .foto{
+			 height: auto;
+            width: 60%; 
+            border-radius: 50%; 
+			float: left;
+			margin-bottom: 20px;
+			margin-left: 20px;
+            }
+			h1{
+				margin-bottom: 20px;
+			}
+			 
+		    
+			.pcopy{
+			color: white;
+			front-size: 18;
+			}
+			
+			.row{
+			
+			}
+		 
