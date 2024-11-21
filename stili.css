@@ -1,34 +1,44 @@
-            body{
-			    background-color: black;
-			 }
-			 .titolo{
-			    font-size: 40;
-			    color: white;
-			 }
-			 .descrizione{
-				color: white;
-				font-size: 25;
-			 }
+body{
+ background-color: black;
+ }
+ 
+.titolo{
+  font-size: 40;
+ color: white;
+}
+.descrizione{
+color: white;
+font-size: 25;
+}
 			 
-			 .foto{
-			 height: auto;
-            width: 60%; 
-            border-radius: 50%; 
-			float: left;
-			margin-bottom: 20px;
-			margin-left: 20px;
-            }
-			h1{
-				margin-bottom: 20px;
-			}
+ .foto{
+ height: auto;
+width: 60%; 
+border-radius: 50%; 
+float: left;
+margin-bottom: 20px;
+margin-left: 50px;
+ }
+
+h1{
+margin-bottom: 20px;
+}
 			 
 		    
-			.pcopy{
-			color: white;
-			front-size: 18;
-			}
+.pcopy{
+color: white;
+font-size: 18;
+}
 			
-			.row{
-			
-			}
-		 
+h2{
+text-align: center;
+color: white;
+background-color: #422A2A;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+				
+.lista{
+color: white;
+font-size: 25;
+}
